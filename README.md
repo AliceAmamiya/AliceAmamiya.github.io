@@ -1,2 +1,1 @@
-Here is a site of Alice Amamiya.
-Nyaaaaaa
+# A simple website: aliceamamiya.github.io
