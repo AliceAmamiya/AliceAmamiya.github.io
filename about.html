@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1c4616b6eee462090c5bc0a944ddab1c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,19 +92,25 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">🏠 Home</span></a>
+<span class="menu-text"><i class="fa-solid fa-house" aria-label="house"></i> Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://share.riko.work"> 
-<span class="menu-text">📁 Shared Docs</span></a>
+<span class="menu-text"><i class="fa-solid fa-folder-open" aria-label="folder-open"></i> Shared Docs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./to-dos.html"> 
-<span class="menu-text">📝 To-Do</span></a>
+<span class="menu-text"><i class="fa-solid fa-rectangle-list" aria-label="rectangle-list"></i> To-Do</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./archive.html"> 
-<span class="menu-text">🗃️ Archive</span></a>
+<span class="menu-text"><i class="fa-solid fa-box-archive" aria-label="box-archive"></i> Archive</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./free-bingyue.html"> 
+<span class="menu-text"><i class="fa-solid fa-dice" aria-label="dice"></i> 拯救炳跃</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -183,35 +191,6 @@ and here it is:
 </div>
 </div>
 <p>I will get back later to provide detailed information about my work. For now, this has worked well.</p>
-</section>
-<section id="关于拯救炳跃" class="level2">
-<h2 class="anchored" data-anchor-id="关于拯救炳跃">关于「拯救炳跃」</h2>
-<p><strong>(About Free Bing-Yue)</strong></p>
-<p>Now, there probably aren’t many people who remember this high school episode, but you, who have found your way here, must be seeking some echoes of the past. If you still yearn for that 2013 when everything wasn’t terribly bleak, feel free to return and take on the challenge once more.</p>
-<p>现在应该没有多少人还记得这个高中时代的小插曲了，但能找到这里来的你，我想应该是在寻找一些往日的影子。如果你仍然怀念那个一切都还没有非常糟糕的2013，欢迎随时回来再挑战一下。</p>
-<p><a href="https://aliceamamiya.github.io/free-bingyue/">Free Bing-Yue / 拯救炳跃 (a 2048 clone)</a></p>
-<p>May life treat every character in this story kindly.</p>
-<p>愿生活善待这个故事中的每一个人。</p>
-<hr>
-<p>In response to a question that curious souls occasionally stumble upon while skimming my social media:<br>
-另外回应一个大家偶尔翻看我的社媒后也许会有点好奇的问题:</p>
-<div class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-是什么呢？
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><del>我大概还是没有跑去变性的。谢谢关心。</del></p>
-</div>
-</div>
-</div>
-<hr>
 <p>Riko SHEN<br>
 Last update: Oct 2024<br>
 <a href="./res/legacy-site.html">Live long and prosper.</a></p>
@@ -302,8 +281,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -414,7 +391,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
